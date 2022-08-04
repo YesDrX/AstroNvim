@@ -22,4 +22,8 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 :PackerSync
 ```
 
-
+### Step4: YouCompleteMe
+```
+cd ~/.local/share/nvim/plugged/YouCompleteMe
+python ./install.py --all --verbose
+```
